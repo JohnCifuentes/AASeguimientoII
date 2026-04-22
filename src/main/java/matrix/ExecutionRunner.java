@@ -1,7 +1,10 @@
 package matrix;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 import java.util.function.Supplier;
 
+@SpringBootApplication
 public class ExecutionRunner {
 
     private static int currentN;
